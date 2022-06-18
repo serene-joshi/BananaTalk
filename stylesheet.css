@@ -1,0 +1,119 @@
+
+h1{
+    color:black;
+  
+    margin: auto;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+#outputDiv{
+    border: 1px solid black;
+    height: 20vh;
+    width: 50%;
+   
+    margin: auto; /* To  align in center **/
+    background-color:black;
+    border: 5px solid darkgrey;
+    color:aqua;
+    text-align: center;
+    border-radius: 2rem;
+    font-family: 'Great Vibes', cursive;
+    
+}
+
+#body{
+    background-image: url("./DRUM.jpg");
+    text-align:center;
+background-size: cover;
+    
+   
+    Background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
+    
+   margin: auto;
+   font-family: 'Great Vibes', cursive;
+
+    
+
+
+
+
+
+   }
+
+   #inputtxt{
+    text-align:center;
+    
+    border: 5px solid darkgrey;
+    background-color: black;
+    width:  50% ;
+    height: 20vh;
+    margin: auto;
+    
+    color: aqua;
+    border-radius: 2rem;
+    font-family: 'Great Vibes', cursive;
+
+    
+   }
+
+   #button{
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 150px;
+    font-weight: 400;
+ background-color: black;
+    color: red;
+   
+    margin: auto;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    cursor: pointer;
+    border-radius :100px;
+    transition: 1s;
+    margin-top: 50px;
+    padding: 20px;
+    
+   }
+   #button:hover{
+box-shadow: 0 5px 5px 0  inset, 0 5px 5px 0  aqua ,0 5px 5px 0 aqua inset,0 5px 5px 0 aqua;
+
+   }
+
+.divs{
+    color: brown;
+    text-decoration: double;
+    text-align: center;
+    margin: 2rem 2rem;
+    text-align: center;
+    
+}
+#spl{
+  
+    margin-bottom: 100px;
+    color:black;
+    margin-top: 110px;
+    text-align: center;
+         
+        border: 4px solid brown;
+        box-shadow: 10px 5px yellow; 
+    font-family: 'Great Vibes', cursive;
+
+        
+        
+   
+}
+
+   
+   /**
+
+   1. next line 
+   2. inline-block , block
+   3. Best practices
+        i) loading of js script file
+        ii) definition only once for an elemeny
+4. margin: auto?
